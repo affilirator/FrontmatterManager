@@ -1,0 +1,114 @@
+# Dependencies
+node_modules/
+jspm_packages/
+bower_components/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Content and Output
+content/
+src/content/
+blog/
+output/
+dist/
+out/
+*/images/
+**/*.md
+!README.md
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+*.ico
+*.webp
+*.tiff
+*.psd
+*.ai
+*.eps
+
+# Build and Cache
+.cache/
+.parcel-cache/
+.temp/
+.rpt2_cache/
+.rts2_cache*/
+.fusebox/
+.serverless/
+.docusaurus/
+.nuxt/
+.next/
+.vuepress/dist/
+build/Release/
+.grunt/
+
+# Logs and Debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+.node_repl_history
+.tern-port
+.lock-wscript
+
+# Test and Coverage
+coverage/
+*.lcov
+.nyc_output/
+lib-cov/
+.vscode-test/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment and local config
+.env*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Package management
+.npm/
+*.tgz
+.yarn-integrity
+
+# Caches and linting
+.eslintcache
+.stylelintcache
+
+# Reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# DynamoDB Local
+.dynamodb/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

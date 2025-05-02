@@ -1,0 +1,29 @@
+{
+  "name": "frontmatter-manager",
+  "version": "1.0.0",
+  "description": "A tool to manage frontmatter in markdown files",
+  "main": "frontmatter-array.js",
+  "bin": {
+    "frontmatter-array": "./frontmatter-array.js",
+    "frontmatter-wizard": "./wizard.js",
+    "frontmatter-editor": "./frontmatter-editor.js"
+  },
+  "scripts": {
+    "start": "node frontmatter-array.js",
+    "wizard": "node wizard.js",
+    "editor": "node frontmatter-editor.js"
+  },
+  "keywords": [
+    "frontmatter",
+    "markdown",
+    "yaml",
+    "json"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "gray-matter": "^4.0.3",
+    "inquirer": "^8.2.5"
+  }
+}
